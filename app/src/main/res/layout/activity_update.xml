@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/update"
+    tools:context=".UpdateActivity">
+
+    <LinearLayout
+        android:layout_width="459dp"
+        android:layout_height="550dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/referenceMessage"
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter message"
+            android:padding="16dp"
+            android:textColor="@color/green" />
+
+        <EditText
+            android:id="@+id/updateOwnerMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter owner message"
+            android:padding="16dp"
+            android:textColor="@color/green" />
+
+        <EditText
+            android:id="@+id/updateDate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter date"
+            android:padding="16dp"
+            android:textColor="@color/green" />
+
+        <EditText
+            android:id="@+id/updateFeelingMessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/green_border"
+            android:gravity="start|center_vertical"
+            android:hint="Enter feeling"
+            android:padding="16dp"
+            android:textColor="@color/green" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="Update"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="Back"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/main"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="240dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/mainRead"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/blue"
+            android:text="Read"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Write"
+            android:id="@+id/mainUpload"
+            android:textSize="18sp"
+            android:backgroundTint="@color/blue"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:text="Edit"
+                android:id="@+id/mainUpdate"
+                android:textSize="18sp"
+                android:padding="20sp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                app:strokeColor="@color/white"
+                app:strokeWidth="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:text="Delete"
+                android:id="@+id/mainDelete"
+                android:textSize="18sp"
+                android:padding="20sp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:textColor="@color/white"
+                app:strokeColor="@color/white"
+                app:strokeWidth="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

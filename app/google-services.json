@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "408552332772",
+    "firebase_url": "https://projectcrud-1defb-default-rtdb.firebaseio.com",
+    "project_id": "projectcrud-1defb",
+    "storage_bucket": "projectcrud-1defb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408552332772:android:efb2f34c705884a2797bf1",
+        "android_client_info": {
+          "package_name": "com.example.crudapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtnBa0bz_5_mp4OJgWTImS3eFZ-4xKXXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408552332772:android:e759e5deb96db23d797bf1",
+        "android_client_info": {
+          "package_name": "com.example.crudrealtimeadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtnBa0bz_5_mp4OJgWTImS3eFZ-4xKXXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
